@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.main{
+  color: white;
+  max-width: 500px;
+  
+  margin-left: 35%;
+  background-color: rgb(47, 45, 45);
+  font-family: "poppins";
+  font-weight: 500;
+  border-radius: 5px;
+padding-bottom: 10px;
+}
+h1{
+  text-align: center;
+}
+.content{
+  text-align: center;
+}
+.content input{
+  outline: none;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-right: 70px;
+  padding-bottom: 5px;
+  text-align: start;overflow: hidden;
+  margin-left: 30px;
+  text-align: left;
+  color: rgb(49, 49, 240);
+}
+.content input::placeholder {
+  text-align: left; 
+  padding-left: 0;
+}
+.copy{
+  background-color: rgb(31, 31, 238);
+  color: white;
+  border: none;
+  padding: 7px 16px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 1px;
+
+}
+.info{
+  margin-top:30px;
+  margin-left: 10px;
+  display: flex;
+  gap: 20px;
+  
+}
+button:hover{
+  background-color: rgb(38, 35, 196);
+}
